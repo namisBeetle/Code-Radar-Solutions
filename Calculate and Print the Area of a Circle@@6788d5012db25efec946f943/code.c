@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <math.h>
+#define PI 3.14159 
 
 int main() {
     float r;
     scanf("%f",&r);
-    printf("Area: %.2f",M_PI*r*r);
+    printf("Area: %.2f",PI*r*r);
     return 0;
 }
