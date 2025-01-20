@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    scanf("%d",&a);
-    printf("You enetered: %d",a);
+    char str[];
+    scanf("%s",&str[]);
+    print("%s",str[]);
     return 0;
 }
