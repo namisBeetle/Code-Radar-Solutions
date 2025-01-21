@@ -5,6 +5,6 @@ int main() {
     int a,b;
     bool res = a>b;
     scanf("%d %d",&a,&b);
-    printf("%b",res);
+    printf("%s",res);
     return 0;
 }
