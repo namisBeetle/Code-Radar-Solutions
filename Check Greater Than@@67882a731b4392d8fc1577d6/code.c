@@ -5,6 +5,10 @@ int main() {
     int a,b;
     bool res = a>b;
     scanf("%d %d",&a,&b);
-    printf("%s",res);
+    if(res){
+        print("True");
+    }else{
+        print("False")
+    }
     return 0;
 }
