@@ -6,9 +6,9 @@ int main() {
     bool res = a>b;
     scanf("%d %d",&a,&b);
     if(res){
-        print("True");
+        printf("True");
     }else{
-        print("False")
+        printf("False")
     }
     return 0;
 }
