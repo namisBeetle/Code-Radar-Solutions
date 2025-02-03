@@ -13,14 +13,15 @@ int main() {
         for(int l=1;l<i;l++){
             printf("*");
         }
+        printf("\n");
+    }
+    for(int x=1;x<=n;x++){
         for(int m=0;m<i;m++){
             printf(" ");
         }
-        for(int n=0;n<n-i;n++){
+        for(int o=0;o<n-i;o++){
             printf("*");
         }
-        
-        printf("\n");
     }
     return 0;
 }
