@@ -11,7 +11,13 @@ int main() {
             printf("*");
         }
         for(int l=1;l<i;l++){
-            printf("*")
+            printf("*");
+        }
+        for(int m=0;m<i;m++){
+            printf(" ");
+        }
+        for(int n=0;n<n-i;n++){
+            printf("*");
         }
         
         printf("\n");
