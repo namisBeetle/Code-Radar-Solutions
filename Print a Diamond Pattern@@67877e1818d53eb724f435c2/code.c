@@ -24,7 +24,7 @@ int main() {
             printf("*");
         }
         for(int y=1;y<n-x;y++){
-            printf("*")
+            printf("*");
         }
         printf("\n");
     }
