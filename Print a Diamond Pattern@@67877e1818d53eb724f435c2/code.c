@@ -21,7 +21,10 @@ int main() {
             printf(" ");
         }
         for(int o=0;o<n-x;o++){
-            printf("**");
+            printf("*");
+        }
+        for(int y=1;y<n-x;y++){
+            printf("*")
         }
         printf("\n");
     }
