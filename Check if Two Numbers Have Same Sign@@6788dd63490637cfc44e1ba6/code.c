@@ -3,10 +3,10 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if((a>0&&b>0) || (a<0&&b<0)){
-        prinf("Same Sign");
+    if((a>0 && b>0) || (a<0 && b<0)){
+        printf("Same Sign");
     }else{
-        prinf("Different sign");
+        printf("Different sign");
     }
     return 0;
 }
