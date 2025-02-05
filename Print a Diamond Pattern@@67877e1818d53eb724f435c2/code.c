@@ -7,23 +7,18 @@ int main() {
         for(int j=0;j<n-i;j++){
             printf(" ");
         }
-        for(int k=0;k<i;k+2){
+        for(int k=0;k<=(2*i)-1;k++){
             printf("*");
         }
-        for(int l=1;l<i;l++){
-            printf("*");
-        }
+       
         printf("\n");
     }
 
-    for(int x=1;x<n;x++){
-        for(int m=0;m<x;m++){
+    for(int i=n-1;i<=1;i--){
+        for(int j=0;j<n-i;j++){
             printf(" ");
         }
-        for(int o=0;o<n-x;o++){
-            printf("*");
-        }
-        for(int y=1;y<n-x;y++){
+        for(int k=0;k<=(2*i)-1;k++){
             printf("*");
         }
         printf("\n");
