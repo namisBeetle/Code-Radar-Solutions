@@ -13,7 +13,7 @@ int main() {
             break;
         case'*':
             printf("%d",a*b);
-        case"/":
+        case'/':
             if(a==0){
                 printf("error");
             }else{
