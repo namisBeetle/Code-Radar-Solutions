@@ -2,15 +2,19 @@
 
 int main() {
     char a;
-    scanf("%c",a);
-    if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u'||a=='A'||a=='E'||a=='I'||a=='O'||a=='U'){
-        printf("Vowel");
-    }else if(a=='1'||a=='2'||a=='3'a=='4'||a=='5'||a=='6'||a=='7'||a=='8'||a=='9'||a=='0'){
-        printf("Digit");
-    }else if(a>31 && a<65 && a>90 && a<97 && a>122){
-        printf("Special Character");
-    }else{
-        printf("Consonant");
+    scanf("%c", &a);
+
+    if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u' || 
+       a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U') {
+        printf("Vowel\n");
+    }else if(a >= '0' && a <= '9') {
+        printf("Digit\n");
+    }else if((a >= 32 && a <= 47) || (a >= 58 && a <= 64) || 
+            (a >= 91 && a <= 96) || (a >= 123 && a <= 126)) {
+        printf("Special Character\n");
+    }else {
+        printf("Consonant\n");
     }
+
     return 0;
 }
